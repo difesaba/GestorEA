@@ -1,0 +1,181 @@
+﻿body {
+    font-size: 12px;
+}
+
+.border-content {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form-control-sm {
+    padding-top: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 4px;
+    font-size: 12px;
+}
+
+.custom-select {
+    padding-top: 0px !important;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 0px;
+    font-size: 12px;
+    height: 26px;
+    
+}
+
+.button-search {
+    margin-top: 25px;
+    padding-top: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 4px;
+    font-size: 12px;
+ 
+}
+
+.tamano-codigo {
+    width: 100px;
+}
+
+.input-icon-right {
+    position: relative;
+    width: 100%;
+    padding: 3px 0px;
+    box-sizing: border-box;
+    color: #337ab7;
+}
+
+    .input-icon-right i {
+        position: absolute;
+        z-index: 2;
+        top: 10px;
+        right: 25px;
+        font-size: 12px;
+    }
+
+    .input-icon-right .input-text {
+        padding-right: 20px;
+    }
+
+
+
+/*================================================================================================================================================================
+                   INICIO ESTILOS AUTOCOMPLETE
+================================================================================================================================================================*/
+
+.autocomplete {
+    position: relative;
+}
+
+.option {
+    cursor: pointer;
+}
+
+    .option:hover {
+        background-color: #337ab7;
+        color: white;
+    }
+
+
+
+
+.result-top {
+    top: 100%;
+}
+
+.result-bottom-full {
+    bottom: 100%;
+}
+
+.result-bottom {
+    bottom: 60%;
+}
+
+.resultAC {
+    z-index: 9999;
+    width: 100%;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #FAFAFA;
+    max-height: 230px;
+    z-index: 100;
+    overflow: auto;
+    padding: 2px;
+}
+
+    .resultAC > div {
+        box-sizing: border-box;
+        height: 23px;
+        padding: 2px 6px;
+        overflow: hidden;
+        white-space: nowrap;
+        font-size: 11px;
+        text-overflow: ellipsis;
+        /*font-family: 'ubuntu';*/
+        text-align: left !important;
+    }
+
+
+
+/*================================================================================================================================================================
+                   FIN ESTILOS AUTOCOMPLETE
+================================================================================================================================================================*/
+
+
+.thead-table {
+    background-color: #007bff;
+    color: #fff;
+    text-align:center;
+    padding: 5px !important;
+}
+
+    .thead-table th {
+        padding: 5px !important;
+    }
+
+.icon-table-size {
+   width:80px;
+}
+
+.icon-table-aling {
+    text-align:center;
+}
+
+.icon-table {
+    color: #007bff;
+}
+
+.padding-input-modal {
+    padding: 4px !important;
+}
+
+.label-modal {
+    font-weight: bold;
+    border-color: #fff;
+}
+
+.tamano-siglas-table {
+    width: 100px;
+}
+.tamano-codigo-table {
+    width: 120px;
+}
+.tamano-fecha-table {
+    width: 120px;
+}
+legend {
+    padding: 5px !important;
+    width: auto !important;
+    margin-bottom: 0px !important;
+    font-size: 14px !important;
+}
+.required {
+    color: red;
+}
+
+.alling-numbers {
+    text-align: right !important;
+}
