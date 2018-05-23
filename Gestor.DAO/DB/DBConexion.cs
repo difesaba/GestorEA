@@ -14,7 +14,7 @@ namespace Gestor.DAO.DB
 
         public DBConexion()
         {
-            this.cadenaConexion = "Data Source=(local);User=sa;Password=123;Initial Catalog=Gestor"; ;
+            this.cadenaConexion = "Server=tcp:sejmet.database.windows.net,1433;Initial Catalog=Gestor;Persist Security Info=False;User ID=caroli;Password=Difesaba.26;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"; ;
         }
 
         public List<Dictionary<string, object>> consultarSP(ConexionDTO obj)
