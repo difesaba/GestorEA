@@ -5,6 +5,7 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../Inicio/inicio.aspx">Inicio</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Administración de Productos</li>
     <li class="breadcrumb-item active" aria-current="page">Productos</li>
   </ol>
 </nav>
@@ -66,7 +67,7 @@
                 <i class="fas fa-file-excel fa-2x icon-table" onclick="ExportToExcel();" title="Exportar" data-toggle="tooltip" data-placement="right"></i>
                 <i class="fas fa-print fa-2x icon-table" onclick=" imprimir()" title="Imprimir" data-toggle="tooltip" data-placement="right"></i>
                 <input type="file" name="txtarchivo" id="txtarchivo"  value="" />
-                <button onclick="ImportarArchivo()" >asa</button>     
+                <i class="fas fa-cloud-upload-alt fa-2x icon-table" onclick="ImportarArchivo()"  title="Cargar" data-toggle="tooltip" data-placement="right"></i>
             </div>
             <br>
             <div class="container-fluid">

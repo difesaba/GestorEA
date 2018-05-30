@@ -1,6 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Accesos.aspx.cs" Inherits="GestorEA.Views.Usuarios.Accesos1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="../Inicio/inicio.aspx">Inicio</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Administración de Usuarios</li>
+    <li class="breadcrumb-item active" aria-current="page">Accesos</li>
+  </ol>
+</nav>
     <div ng-app="accesoApp">
         <div ng-controller="accesoController">
             <div class="container-fluid">

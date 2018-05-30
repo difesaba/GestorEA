@@ -2,6 +2,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <link href="https://cdn.jsdelivr.net/npm/gijgo@1.8.1/combined/css/gijgo.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/gijgo@1.8.1/combined/js/gijgo.min.js" type="text/javascript"></script>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../Inicio/inicio.aspx">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Solicitudes</li>
+        <li class="breadcrumb-item active" aria-current="page">Aprobación de Solicitud</li>
+      </ol>
+    </nav>
     <div ng-app="aprobarSolicitudApp">
         <div ng-controller="aprobarController">
             <div class="container-fluid">

@@ -7,6 +7,7 @@
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="../Inicio/inicio.aspx">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Solicitudes</li>
         <li class="breadcrumb-item active" aria-current="page">Crear Solicitud</li>
       </ol>
     </nav>

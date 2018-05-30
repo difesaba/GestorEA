@@ -21,10 +21,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item ">
-        <a class="nav-link" href="#">Conocenós</a>
+        <a class="nav-link" href="#">Conócenos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-toggle="modal" data-target="#myModal">Iniciar Sesion</a>
+        <a class="nav-link" data-toggle="modal" data-target="#myModal">Iniciar Sesión</a>
       </li>
     </ul>
 

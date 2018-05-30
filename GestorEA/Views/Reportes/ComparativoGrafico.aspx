@@ -1,6 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ComparativoGrafico.aspx.cs" Inherits="GestorEA.Views.Reportes.ComparativoGrafico" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../Inicio/inicio.aspx">Inicio</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Reportes</li>
+        <li class="breadcrumb-item"><a href="Comparativo.aspx">Comparativo de Cotizaciones</a></li>
+      </ol>
+    </nav>
     <div ng-app="graficoApp">
         <div ng-controller="graficoController">
             <canvas id="bar-chart" width="400" height="200"></canvas>

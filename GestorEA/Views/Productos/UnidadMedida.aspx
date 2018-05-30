@@ -4,7 +4,8 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="../Inicio/inicio.aspx">Inicio</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Unidad Medida</li>
+    <li class="breadcrumb-item active" aria-current="page">Administración de Productos</li>
+    <li class="breadcrumb-item active" aria-current="page">Unidad de Medida</li>
   </ol>
 </nav>
     <div ng-app="UnidadMedidaApp">
